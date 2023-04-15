@@ -1,8 +1,6 @@
 def main():
     """
-    Prompts the user for the meal cost and the tip percentage.
-
-    Calculates the tip amount, and displays it.
+    Calculates the tip amount for a meal based on the cost and the desired tip percentage.
     """
 
     dollars = dollars_to_float(input("How much was the meal? "))
@@ -14,9 +12,16 @@ def main():
 
 def dollars_to_float(dollar_string):
     """
-    It takes a string argument 'dollar_string', which represents the meal cost in dollars, and converts it to a floating point number.
+    Converts a dollar amount represented as a string to a floating-point number.
 
-    Removes the '$' sign from the string before converting it to a float.
+    Args:
+        dollar_string (str): A string representation of a dollar amount,
+        including the dollar sign ($).
+
+    Returns:
+        float: The floating-point representation of the dollar amount,
+        obtained by removing the dollar sign from the input string
+        and converting the resulting string to a float.
     """
 
     without_dollar_sign = dollar_string.replace("$", "")
@@ -25,9 +30,16 @@ def dollars_to_float(dollar_string):
 
 def percent_to_float(percentage_string):
     """
-    It  takes a string argument 'percentage_string', which represents the tip percentage, and converts it to a floating point number.
+    Converts a percentage represented as a string to a floating-point number.
 
-    Removes the '%' sign from the string and divides the resulting number by 100 to get the percentage in decimal form.
+    Args:
+        percentage_string (str): A string representation of a percentage,
+        including the percentage sign (%).
+
+    Returns:
+        float: The floating-point representation of the percentage,
+        obtained by removing the percentage sign from the input string,
+        converting the resulting string to a float, and dividing the result by 100.
     """
 
     without_percentage_sign = percentage_string.replace("%", "")
