@@ -12,19 +12,19 @@ def main():
     check_answer(user_input)
 
 
-def convert_string(str):
+def convert_string(string):
     """
     Converts the input string to lowercase and removes leading and trailing whitespace.
 
     Args:
-        str (str): A string to be converted.
+        string (str): A string to be converted.
 
     Returns:
-        str: The converted string.
+        string: The converted string.
     """
 
-    str = str.lower().strip()
-    return str
+    string= string.lower().strip()
+    return string
 
 
 def check_answer(answer):
