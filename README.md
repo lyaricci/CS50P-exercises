@@ -1,6 +1,6 @@
 # This is CS50
 
-This repo contains my answears to the exercises from the [CS50P's lectures](https://youtube.com/playlist?list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V).
+This repo contains my answers to the exercises from the [CS50P's lectures](https://youtube.com/playlist?list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V).
 
 ## Lecture 0
 
