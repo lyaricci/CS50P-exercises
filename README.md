@@ -5,3 +5,7 @@ This repo contains my answers to the exercises from the [CS50P's lectures](https
 ## Lecture 0
 
 0️⃣ [Problem Set 0](https://github.com/nathalya-ricci/CS50P-exercises/tree/main/lecture-00/problem-set-00) | [CS50's page](https://cs50.harvard.edu/python/2022/psets/0/)
+
+## Lecture 1
+
+1️⃣ [Problem Set 1](https://github.com/nathalya-ricci/CS50P-exercises/tree/main/lecture-01/problem-set-01) | [CS50's page](https://cs50.harvard.edu/python/2022/psets/1/)
