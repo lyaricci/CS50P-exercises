@@ -23,7 +23,7 @@ def convert_string(string):
         string: The converted string.
     """
 
-    string= string.lower().strip()
+    string = string.lower().strip()
     return string
 
 
